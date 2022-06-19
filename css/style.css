@@ -1,0 +1,29 @@
+.hide{
+    display:none;
+}
+.car,.enemy{
+    position: absolute;
+    bottom:100px;
+    margin:auto;    
+    /* left:200px; */
+    width:50px;
+    height:100px;
+    background-color:blue;
+}
+.line{
+    position:absolute;
+    width:5px;
+    margin-left: 95px !important;
+    height:100px;
+    overflow:hidden;
+    margin:auto;
+    background-color:white;
+}
+.gameArea{
+    background-color: black;
+    width:200px;
+    height:100vh;
+    overflow:hidden;
+    position:relative;
+    margin:auto;
+}
